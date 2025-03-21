@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowRight, Github, Leaf, Bird, Fish, TreePine } from "lucide-react";
+import { ArrowRight, Leaf, Bird, Fish, TreePine } from "lucide-react";
 import Link from "next/link";
 
 const FeatureCard = ({
