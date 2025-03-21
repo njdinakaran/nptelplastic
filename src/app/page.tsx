@@ -25,7 +25,7 @@ export default function Home() {
         <div className="mb-16 flex flex-col md:flex-row items-center justify-between">
           <div className="text-left mb-8 md:mb-0">
             <h1 className="text-6xl font-bold mb-2 tracking-tighter font-sans">NPTEL</h1>
-            <h2 className="text-2xl font-light">Wildlife & Ecology Quiz</h2>
+            <h2 className="text-2xl font-light">Plastic waste</h2>
           </div>
           <div className="h-0.5 w-24 bg-white md:hidden"></div>
           <div className="hidden md:flex space-x-4">
@@ -40,7 +40,7 @@ export default function Home() {
           <FeatureCard
             icon={Leaf}
             title="Comprehensive Coverage"
-            description="In-depth questions covering all aspects of the NPTEL Wildlife & Ecology course"
+            description="In-depth questions covering all aspects of the NPTEL Plastic waste course"
           />
           <FeatureCard
             icon={TreePine}
@@ -50,7 +50,7 @@ export default function Home() {
           <FeatureCard
             icon={Bird}
             title="Precision"
-            description="Identify and improve weak areas"
+            description="Identify and improve weak areas - dei parama padi da"
           />
         </div>
 
@@ -65,21 +65,13 @@ export default function Home() {
               size={20}
             />
           </Link>
-          <a
-            href="https://github.com/sr2echa/wildlife-nptel"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center text-white hover:text-gray-300 transition-colors duration-300"
-          >
-            <Github className="mr-2" size={24} />
-            View on GitHub
-          </a>
+          
         </div>
 
         <div className="text-left">
           <p className="text-gray-500 text-sm">
-            Master the NPTEL Wildlife & Ecology course material and ace your FAT exam with the
-            specialized quiz app.
+            Master the NPTEL course material and ace your FAT exam with the
+            specialized quiz app - developed by babooonss.
           </p>
         </div>
       </div>
